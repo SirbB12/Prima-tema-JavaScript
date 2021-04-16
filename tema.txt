@@ -1,0 +1,53 @@
+ex 2
+Facem o clasa pentru utilizatori:
+    nume - string
+    prenume - string
+    varsta - number
+    hobiuri - array of string
+Se doreste citirea a 5 utilizatori (obiecte ale clasi utilizator) (direct date sau cititi cu datele cu propmpt)
+si sa-i punem intr-un array de utilizatori (folosind push) 
+Se cere:
+    log toti utilizatorii cu prenumele Mihai
+    log toti utilizatorii cu varsta mai mare ca 18
+    log toti utilizatorii care au in hobiuri "Front-end Developer"
+    log toate prenumele utilizatorilor
+ex 3
+let animal1 = {
+  name: "Aki",
+  type: "Dog",
+  age: 5,
+  race: "Shiba Inu"
+}
+let animal2 = {
+  name: "Biiiird",
+  type: "Parrot",
+  age: 1,
+  race: "Lovebird"
+}
+Se dau obiectele de mai sus.
+Se cere pentru animal1 adaugarea urmatoarelor metode si apelarea lor:
+    speak() : Va printa "Bark! Bark! Bark!"
+    details() : Va printa "Type:{type} Name:{name} Age:{age} Race:{race}"
+    howOldAmI(): Va printa varsta animal1
+Se cere pentru animal2 adaugarea urmatoarelor proprietati si metode si apelarea metodelor:
+    friend : proprietate cu valoarea primului obiect (animal1)
+    myFriendIs() : Va printa numele obiectului prorietii friend
+    amIYoungerThanFriend() : Va prinda "True" daca (vreau sa folosim un if) varsta este mai mica decat
+                 varsta proprietii friend altfel vom printa "False"
+Collapse
+
+
+
+8:28
+Also la partea de HTML puteti sa incepeti sa va creati layoutul folosind deocamdata doar div-uri cum am facut la Facebook 2.0 fara sa adaugam inca nimic doar partea de layout unde am facut la inceput div-urile daca nu mai tineti minte uitati-va peste inregistrare!
+8:29
+Also let me know if you need any help!
+
+
+
+
+let utilizator1 = new Utilizator("Ionescu", "Ana", 20, "volley")
+let utilizator2 = new Utilizator("Popescu", "Mihai", 25, "fotbal")
+let utilizator3 = new Utilizator("Dumitrescu", "Denisa", 18, "muzica")
+let utilizator4 = new Utilizator("Stanciu", "Mihai", 16, "tenis")
+let utilizator5 = new Utilizator("Popa", "Iulia", 17, "gatit")
